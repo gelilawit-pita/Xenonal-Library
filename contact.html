@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xenonal Library | Contact</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://img.icons8.com/ios-filled/50/000000/book.png" type="image/x-icon">
+</head>
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <a href="index.html" class="logo">
+        <img src="https://img.icons8.com/ios-filled/50/000000/book.png" alt="Library Logo">
+        <h1>Xenonal Library</h1>
+      </a>
+      <ul class="nav-links">
+  <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+  <li><a href="services.html"><i class="fas fa-concierge-bell"></i> Services</a></li>
+  <li><a href="events.html"><i class="fas fa-calendar-alt"></i> Events</a></li>
+  <li><a href="catalog.html"><i class="fas fa-book-open"></i> Catalog</a></li>
+  <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+</ul>
+      <div class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Contact Hero with Parallax -->
+  <section class="contact-hero">
+    <div class="parallax-content">
+      <h1>Contact Us</h1>
+      <p>We're here to help with all your library needs</p>
+    </div>
+  </section>
+
+  <!-- Contact Information Section -->
+  <section class="section">
+    <div class="contact-container">
+      <!-- Contact Info Card -->
+      <div class="contact-info-card animate-on-scroll">
+        <div class="contact-info-header">
+          <h2><i class="fas fa-info-circle"></i> General Information</h2>
+        </div>
+        <div class="contact-info-body">
+          <div class="contact-method">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Location</h3>
+              <p>123 Library Lane<br>Bookville, BV 12345</p>
+              <a href="#" class="map-link">View on Map <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          
+          <div class="contact-method">
+            <div class="contact-icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Phone</h3>
+              <p>Main: (123) 456-7890<br>
+              Reference: (123) 456-7891<br>
+              Children's: (123) 456-7892</p>
+            </div>
+          </div>
+          
+          <div class="contact-method">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Email</h3>
+              <p>General: <a href="mailto:info@grandlibrary.org">info@grandlibrary.org</a><br>
+              Suggestions: <a href="mailto:suggestions@grandlibrary.org">suggestions@grandlibrary.org</a></p>
+            </div>
+          </div>
+          
+          <div class="contact-method">
+            <div class="contact-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Hours</h3>
+              <p>Monday-Friday: 9am-8pm<br>
+              Saturday: 10am-6pm<br>
+              Sunday: 12pm-5pm</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Contact Form Card -->
+      <div class="contact-form-card animate-on-scroll">
+        <div class="contact-form-header">
+          <h2><i class="fas fa-paper-plane"></i> Send Us a Message</h2>
+        </div>
+        <div class="contact-form-body">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Your Name *</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="subject">Subject *</label>
+              <select id="subject" name="subject" required>
+                <option value="">Select a subject</option>
+                <option value="general">General Inquiry</option>
+                <option value="account">Library Account</option>
+                <option value="suggestion">Book Suggestion</option>
+                <option value="event">Event Information</option>
+                <option value="tech">Technology Help</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Your Message *</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">
+                <i class="fas fa-paper-plane"></i> Send Message
+              </button>
+              <div class="form-note">
+                * Required fields
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Department Contacts Section -->
+  <section class="section" style="background-color: var(--light-brown);">
+    <div class="section-title">
+      <h2>Department Contacts</h2>
+      <p>Connect directly with specific departments</p>
+    </div>
+    
+    <div class="department-grid">
+      <div class="department-card animate-on-scroll">
+        <div class="department-icon">
+          <i class="fas fa-book"></i>
+        </div>
+        <h3>Circulation</h3>
+        <p>For account and borrowing questions</p>
+        <a href="mailto:circulation@grandlibrary.org" class="department-email">circulation@grandlibrary.org</a>
+        <div class="department-phone">(123) 456-7892</div>
+      </div>
+      
+      <div class="department-card animate-on-scroll">
+        <div class="department-icon">
+          <i class="fas fa-child"></i>
+        </div>
+        <h3>Children's Services</h3>
+        <p>Programs for young readers</p>
+        <a href="mailto:children@grandlibrary.org" class="department-email">children@grandlibrary.org</a>
+        <div class="department-phone">(123) 456-7893</div>
+      </div>
+      
+      <div class="department-card animate-on-scroll">
+        <div class="department-icon">
+          <i class="fas fa-calendar-alt"></i>
+        </div>
+        <h3>Events</h3>
+        <p>Program and room booking</p>
+        <a href="mailto:events@grandlibrary.org" class="department-email">events@grandlibrary.org</a>
+        <div class="department-phone">(123) 456-7894</div>
+      </div>
+      
+      <div class="department-card animate-on-scroll">
+        <div class="department-icon">
+          <i class="fas fa-laptop"></i>
+        </div>
+        <h3>Technology Help</h3>
+        <p>Computer and digital resources</p>
+        <a href="mailto:techhelp@grandlibrary.org" class="department-email">techhelp@grandlibrary.org</a>
+        <div class="department-phone">(123) 456-7895</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section class="section">
+    <div class="section-title">
+      <h2>Visit Our Location</h2>
+      <p>Find us in the heart of Bookville</p>
+    </div>
+    
+    <div class="map-container animate-on-scroll">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215209179329!2d-73.987844924164!3d40.75798597138939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sNew%20York%20Public%20Library!5e0!3m2!1sen!2sus!4v1687299639755!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+    <div class="transportation-options">
+      <div class="transportation-card animate-on-scroll">
+        <i class="fas fa-subway"></i>
+        <h3>By Subway</h3>
+        <p>Take the 1, 2, or 3 train to 42nd Street</p>
+      </div>
+      
+      <div class="transportation-card animate-on-scroll">
+        <i class="fas fa-bus"></i>
+        <h3>By Bus</h3>
+        <p>M5, M7, M42 all stop nearby</p>
+      </div>
+      
+      <div class="transportation-card animate-on-scroll">
+        <i class="fas fa-bicycle"></i>
+        <h3>Bike Parking</h3>
+        <p>Racks available on all sides</p>
+      </div>
+      
+      <div class="transportation-card animate-on-scroll">
+        <i class="fas fa-parking"></i>
+        <h3>Parking</h3>
+        <p>Garages on 40th and 44th Streets</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Update the FAQ section in contact.html -->
+<section class="section" style="background-color: var(--cream);">
+  <div class="section-title">
+    <h2>Frequently Asked Questions</h2>
+    <p>Quick answers to common questions</p>
+  </div>
+  
+  <div class="faq-container">
+    <div class="faq-item animate-on-scroll">
+      <button class="faq-question">
+        How do I get a library card?
+        <i class="fas fa-chevron-down"></i>
+      </button>
+      <div class="faq-answer">
+        <p>You can register for a free library card at any of our branches with valid photo ID and proof of address. You can also begin the process online through our website. Library cards are available to all residents of Bookville and surrounding areas. Children under 18 need a parent or guardian's signature.</p>
+      </div>
+    </div>
+    
+    <div class="faq-item animate-on-scroll">
+      <button class="faq-question">
+        What are your holiday hours?
+        <i class="fas fa-chevron-down"></i>
+      </button>
+      <div class="faq-answer">
+        <p>On most holidays, we're open from 10am to 3pm. We're closed on Thanksgiving, Christmas, and New Year's Day. Check our website for specific holiday schedules. Summer hours (June-August) may vary, with extended hours on weekdays.</p>
+      </div>
+    </div>
+    
+    <div class="faq-item animate-on-scroll">
+      <button class="faq-question">
+        Can I renew my books online?
+        <i class="fas fa-chevron-down"></i>
+      </button>
+      <div class="faq-answer">
+        <p>Yes! Log in to your account on our website or mobile app to renew items. Most materials can be renewed twice if there are no holds on them. Some special collection items may have different renewal policies. You'll receive email reminders before items are due.</p>
+      </div>
+    </div>
+    
+    <div class="faq-item animate-on-scroll">
+      <button class="faq-question">
+        Do you have study rooms available?
+        <i class="fas fa-chevron-down"></i>
+      </button>
+      <div class="faq-answer">
+        <p>We have 12 study rooms available on a first-come, first-served basis. Rooms can be reserved in advance by library card holders for up to 2 hours per day. Study rooms include whiteboards, power outlets, and some have computer hookups. Group study rooms accommodate 4-8 people.</p>
+      </div>
+    </div>
+    
+    <div class="faq-item animate-on-scroll">
+      <button class="faq-question">
+        How many items can I borrow at once?
+        <i class="fas fa-chevron-down"></i>
+      </button>
+      <div class="faq-answer">
+        <p>Regular patrons can borrow up to 30 items at once, including up to 10 DVDs and 5 video games. Teachers with educator cards may borrow up to 50 items. There are no limits on e-books and digital audiobooks through our OverDrive/Libby service.</p>
+      </div>
+    </div>
+    
+    <div class="faq-item animate-on-scroll">
+      <button class="faq-question">
+        Do you offer notary services?
+        <i class="fas fa-chevron-down"></i>
+      </button>
+      <div class="faq-answer">
+        <p>Yes, we offer free notary services at our main branch. Please call ahead to confirm notary availability as hours vary. Bring your unsigned document and valid photo ID. Notaries cannot notarize wills, real estate documents, or documents in languages they don't understand.</p>
+      </div>
+    </div>
+    
+    <div class="faq-item animate-on-scroll">
+      <button class="faq-question">
+        Can I donate books to the library?
+        <i class="fas fa-chevron-down"></i>
+      </button>
+      <div class="faq-answer">
+        <p>We accept donations of gently used books, DVDs, and CDs during regular hours. We cannot accept textbooks, encyclopedias, magazines, or damaged items. Donations may be added to our collection or sold in our Friends of the Library book sales to support library programs.</p>
+      </div>
+    </div>
+    
+    <div class="faq-item animate-on-scroll">
+      <button class="faq-question">
+        Do you have meeting rooms for public use?
+        <i class="fas fa-chevron-down"></i>
+      </button>
+      <div class="faq-answer">
+        <p>Our community meeting room seats up to 50 people and is available for free to non-profit groups when not in use for library programs. Reservations can be made up to 3 months in advance. Commercial groups may rent the space for a small fee. Kitchen facilities are available.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="text-center" style="margin-top: 3rem;">
+    <p>Didn't find your answer? <a href="#contactForm" class="btn btn-primary">Contact Us</a></p>
+  </div>
+</section>
+
+<!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3>About Us</h3>
+        <p>Xenonal Library has been serving the community since 1985, providing access to knowledge, culture, and lifelong learning opportunities.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="catalog.html">Book Catalog</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h3>Opening Hours</h3>
+        <ul class="footer-links">
+          <li>Monday - Friday: 9am - 8pm</li>
+          <li>Saturday: 10am - 6pm</li>
+          <li>Sunday: 12pm - 5pm</li>
+          <li>Holidays: 10am - 3pm</li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h3>Contact Info</h3>
+        <p><i class="fas fa-map-marker-alt"></i> 123 Library Lane, Bookville</p>
+        <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+        <p><i class="fas fa-envelope"></i> info@xenonallibrary.org</p>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2025 Xenonal Library. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
